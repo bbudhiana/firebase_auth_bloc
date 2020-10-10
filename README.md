@@ -1,6 +1,6 @@
-# firebase_auth_bloc
+# firebase auth with bloc
 
-A new Flutter project.
+A new Flutter project. Authentication Using firebase with BLoC method.
 
 ## Getting Started
 
