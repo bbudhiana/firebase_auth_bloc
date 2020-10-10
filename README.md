@@ -4,11 +4,17 @@ A new Flutter project. Authentication Using firebase with BLoC method.
 
 ## Getting Started
 
-[Remember: First thing first] (https://firebase.google.com/docs/android/setup?authuser=2)
+Remember: First thing first (https://firebase.google.com/docs/android/setup?authuser=2)
 
 - add project to firebase console
 - get the 'google-services.json'
 - follow the instruction from firebase console when you add project
+
+This code base on : https://youtu.be/xGqMgHnDgb8 with add some features :
+
+- login with google
+- update with new BLoC plugin
+- add error handler
 
 This project is a starting point for a Flutter application.
 
