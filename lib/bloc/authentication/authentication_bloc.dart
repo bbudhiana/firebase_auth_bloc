@@ -14,6 +14,10 @@ class AuthenticationBloc
   //Dalam Dart, colon atau ':' merupakan operator yang spesial
   //fungsinya adalah inisialisasi fields dalam kelas kita dengan input dari constructor
   //dalam hal ini, nilai _userRepository kelas di inisialisasi dengan userRepository yang merupakan input constructor dari kelas
+  //colon ':' di constructor ini dinamakana 'Initializer list', dimana akan di run lebih dibanding superclass constructor dan main class constructor, urutannya:
+  //1. Initializer list
+  //2. super class constructor (super(AuthenticationInitial()))
+  //3. main class constructor
   AuthenticationBloc({UserRepository userRepository})
       : _userRepository = userRepository,
         super(AuthenticationInitial());

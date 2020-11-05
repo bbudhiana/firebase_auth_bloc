@@ -32,6 +32,16 @@ class LoginState {
   //https://dart.dev/guides/language/language-tour#constructors
   //Use the factory keyword when implementing a constructor that doesn’t always create a new instance of its class
   //factory constructors is initializing a final variable using logic that can’t be handled in the initializer list.
+  //A factory constructor is generally used to control the instance creation.
+  //A factory Constructor does not have access to 'this' object
+  //A factory constructor can return value from cache or from an instance of a sub-type.
+  //A factory constructors are like static methods whose return type is the class itself.
+  //A factory function is a function that returns an instance of a class.
+  //Proper use case of factory constructor:
+  //- Use factory constructor when creating a new instance of an existing class is too expensive
+  //- Creating only one instance of the class.
+  //- For returning sub-class instance of the class instead of the class itself.
+  //this is factory function
   factory LoginState.initial() {
     return LoginState(
       isEmailValid: true,
